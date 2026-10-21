@@ -1,6 +1,6 @@
 
 let numero = 3
-for(let i = 0; i<2; i++) {
+for(let i = 0; i<11; i++) {
     console.log(numero + "x" + i + "=" + numero*i)
 }
 
@@ -22,3 +22,8 @@ if(operacao == "+") {
 } else {
     alert("Não foi possivel calcular")
 }
+function greetings(nome) {
+    console.log("olá" + nome)
+}
+
+greetings(ana)
